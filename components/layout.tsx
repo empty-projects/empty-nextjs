@@ -42,7 +42,7 @@ export default function Layout({
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl + ' text-amber-600'}>{name}</h1>
           </>
         ) : (
           <>
